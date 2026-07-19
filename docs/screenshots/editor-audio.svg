@@ -1,0 +1,193 @@
+<svg viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="screen"><rect x="8" y="8" width="374" height="828" rx="46"/></clipPath>
+  </defs>
+  <g font-family="-apple-system, Helvetica, Arial, sans-serif">
+    <!-- Device frame -->
+    <rect x="0" y="0" width="390" height="844" rx="54" fill="#1B1F27"/>
+    <g clip-path="url(#screen)">
+      <rect x="8" y="8" width="374" height="828" fill="#F7F8FA"/>
+
+      <!-- Status bar -->
+      <text x="52" y="46" font-size="15" font-weight="600" fill="#1B1F27">9:41</text>
+      <g fill="#1B1F27">
+        <rect x="292" y="42" width="3" height="4" rx="1"/>
+        <rect x="297" y="40" width="3" height="6" rx="1"/>
+        <rect x="302" y="38" width="3" height="8" rx="1"/>
+        <rect x="307" y="36" width="3" height="10" rx="1"/>
+      </g>
+      <g stroke="#1B1F27" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M316 41 a8 8 0 0 1 12 0"/>
+        <path d="M319 44 a4.4 4.4 0 0 1 6 0"/>
+      </g>
+      <circle cx="322" cy="46.5" r="1.6" fill="#1B1F27"/>
+      <rect x="336" y="36" width="22" height="11" rx="3.5" fill="none" stroke="#1B1F27" stroke-width="1.5"/>
+      <rect x="338" y="38" width="14" height="7" rx="2" fill="#1B1F27"/>
+      <rect x="359.5" y="39" width="2" height="5" rx="1" fill="#1B1F27"/>
+      <rect x="132" y="22" width="126" height="36" rx="18" fill="#14161A"/>
+
+      <!-- Top bar -->
+      <path d="M26 78 L40 92 M40 78 L26 92" stroke="#1B1F27" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="195" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#1B1F27">Edit</text>
+      <!-- Preview mode toggle -->
+      <rect x="246" y="69" width="84" height="32" rx="10" fill="#EEF0F4"/>
+      <rect x="249" y="72" width="39" height="26" rx="8" fill="#FF6B6B"/>
+      <rect x="259" y="78" width="19" height="14" rx="3" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+      <path d="M266 81.5 L272 85 L266 88.5 Z" fill="#FFFFFF"/>
+      <circle cx="309" cy="85" r="7.5" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.6 2.6"/>
+      <circle cx="309" cy="85" r="2.8" fill="#6B7280"/>
+      <!-- Play button -->
+      <path d="M350 77 L350 93 L364 85 Z" fill="#1B1F27"/>
+      <rect x="8" y="104" width="374" height="1" fill="#E2E5EA"/>
+
+      <!-- Canvas -->
+      <rect x="8" y="105" width="374" height="415" fill="#14161A"/>
+      <circle cx="140" cy="250" r="40" fill="#FFB84C"/>
+      <polygon points="30,520 210,290 382,520" fill="#3D7DFF"/>
+      <polygon points="8,520 130,360 260,520" fill="#2ECC9B"/>
+      <polygon points="230,520 315,385 382,520" fill="#2ECC9B"/>
+      <!-- LIVE badge -->
+      <rect x="24" y="120" width="66" height="22" rx="11" fill="#FFB84C"/>
+      <circle cx="38" cy="131" r="6" fill="none" stroke="#14161A" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1.4 2.2"/>
+      <circle cx="38" cy="131" r="2" fill="#14161A"/>
+      <text x="48" y="135" font-size="10" font-weight="700" letter-spacing="1" fill="#14161A">LIVE</text>
+
+      <!-- Audio panel -->
+      <!-- Original audio -->
+      <text x="24" y="543" font-size="10" font-weight="600" letter-spacing="1" fill="#6B7280">ORIGINAL AUDIO</text>
+      <rect x="24" y="552" width="28" height="28" rx="8" fill="#EEF0F4"/>
+      <path d="M32 563 h3.5 l4.5 -4 v10 l-4.5 -4 h-3.5 Z" fill="#1B1F27"/>
+      <g stroke="#1B1F27" stroke-width="1.5" fill="none" stroke-linecap="round">
+        <path d="M42.5 563.5 a3.5 3.5 0 0 1 0 5"/>
+        <path d="M44.8 561.5 a6.5 6.5 0 0 1 0 9"/>
+      </g>
+      <text x="64" y="562" font-size="11" font-weight="500" fill="#1B1F27">Volume</text>
+      <text x="366" y="562" text-anchor="end" font-size="11" font-weight="500" fill="#6B7280">100%</text>
+      <rect x="64" y="570" width="302" height="6" rx="3" fill="#EEF0F4"/>
+      <rect x="64" y="570" width="302" height="6" rx="3" fill="#FF6B6B"/>
+      <circle cx="357" cy="573" r="9" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="1"/>
+
+      <rect x="24" y="592" width="342" height="1" fill="#E2E5EA"/>
+
+      <!-- Soundtrack -->
+      <text x="24" y="611" font-size="10" font-weight="600" letter-spacing="1" fill="#6B7280">SOUNDTRACK</text>
+      <!-- Waveform well -->
+      <rect x="24" y="618" width="342" height="48" rx="10" fill="#EEF0F4"/>
+      <g fill="#3D7DFF">
+        <rect x="42" y="637" width="4" height="10" rx="2"/>
+        <rect x="49.5" y="634" width="4" height="16" rx="2"/>
+        <rect x="57" y="631" width="4" height="22" rx="2"/>
+        <rect x="64.5" y="628" width="4" height="28" rx="2"/>
+        <rect x="72" y="630" width="4" height="24" rx="2"/>
+        <rect x="79.5" y="633" width="4" height="18" rx="2"/>
+        <rect x="87" y="636" width="4" height="12" rx="2"/>
+        <rect x="94.5" y="634" width="4" height="16" rx="2"/>
+        <rect x="102" y="630" width="4" height="24" rx="2"/>
+        <rect x="109.5" y="627" width="4" height="30" rx="2"/>
+        <rect x="117" y="629" width="4" height="26" rx="2"/>
+        <rect x="124.5" y="632" width="4" height="20" rx="2"/>
+        <rect x="132" y="635" width="4" height="14" rx="2"/>
+        <rect x="139.5" y="637" width="4" height="10" rx="2"/>
+        <rect x="147" y="635" width="4" height="14" rx="2"/>
+        <rect x="154.5" y="632" width="4" height="20" rx="2"/>
+        <rect x="162" y="629" width="4" height="26" rx="2"/>
+        <rect x="169.5" y="626" width="4" height="32" rx="2"/>
+        <rect x="177" y="628" width="4" height="28" rx="2"/>
+        <rect x="184.5" y="631" width="4" height="22" rx="2"/>
+        <rect x="192" y="634" width="4" height="16" rx="2"/>
+        <rect x="199.5" y="636" width="4" height="12" rx="2"/>
+        <rect x="207" y="634" width="4" height="16" rx="2"/>
+        <rect x="214.5" y="631" width="4" height="22" rx="2"/>
+        <rect x="222" y="628" width="4" height="28" rx="2"/>
+        <rect x="229.5" y="626" width="4" height="32" rx="2"/>
+        <rect x="237" y="629" width="4" height="26" rx="2"/>
+        <rect x="244.5" y="632" width="4" height="20" rx="2"/>
+        <rect x="252" y="635" width="4" height="14" rx="2"/>
+        <rect x="259.5" y="637" width="4" height="10" rx="2"/>
+        <rect x="267" y="635" width="4" height="14" rx="2"/>
+        <rect x="274.5" y="633" width="4" height="18" rx="2"/>
+        <rect x="282" y="630" width="4" height="24" rx="2"/>
+        <rect x="289.5" y="628" width="4" height="28" rx="2"/>
+        <rect x="297" y="630" width="4" height="24" rx="2"/>
+        <rect x="304.5" y="633" width="4" height="18" rx="2"/>
+        <rect x="312" y="636" width="4" height="12" rx="2"/>
+        <rect x="319.5" y="637" width="4" height="10" rx="2"/>
+        <rect x="327" y="635" width="4" height="14" rx="2"/>
+        <rect x="334.5" y="633" width="4" height="18" rx="2"/>
+      </g>
+      <!-- Range selector -->
+      <rect x="35" y="620" width="312" height="3" fill="#FF6B6B"/>
+      <rect x="35" y="661" width="312" height="3" fill="#FF6B6B"/>
+      <rect x="26" y="620" width="9" height="44" rx="4.5" fill="#FF6B6B"/>
+      <rect x="347" y="620" width="9" height="44" rx="4.5" fill="#FF6B6B"/>
+      <line x1="30.5" y1="635" x2="30.5" y2="649" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="351.5" y1="635" x2="351.5" y2="649" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Compact slider rows -->
+      <text x="24" y="686" font-size="11" font-weight="500" fill="#1B1F27">Starts at</text>
+      <rect x="115" y="679.5" width="190" height="5" rx="2.5" fill="#EEF0F4"/>
+      <rect x="115" y="679.5" width="28" height="5" rx="2.5" fill="#FF6B6B"/>
+      <circle cx="143" cy="682" r="7" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="1"/>
+      <text x="366" y="686" text-anchor="end" font-size="11" font-weight="500" fill="#6B7280">0:00.4</text>
+
+      <text x="24" y="709" font-size="11" font-weight="500" fill="#1B1F27">Volume</text>
+      <rect x="115" y="702.5" width="190" height="5" rx="2.5" fill="#EEF0F4"/>
+      <rect x="115" y="702.5" width="152" height="5" rx="2.5" fill="#FF6B6B"/>
+      <circle cx="267" cy="705" r="7" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="1"/>
+      <text x="366" y="709" text-anchor="end" font-size="11" font-weight="500" fill="#6B7280">80%</text>
+
+      <text x="24" y="732" font-size="11" font-weight="500" fill="#1B1F27">Fade in</text>
+      <rect x="115" y="725.5" width="190" height="5" rx="2.5" fill="#EEF0F4"/>
+      <rect x="115" y="725.5" width="29" height="5" rx="2.5" fill="#FF6B6B"/>
+      <circle cx="144" cy="728" r="7" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="1"/>
+      <text x="366" y="732" text-anchor="end" font-size="11" font-weight="500" fill="#6B7280">0.3s</text>
+
+      <!-- Tool tab bar -->
+      <rect x="8" y="744" width="374" height="92" fill="#FFFFFF"/>
+      <rect x="8" y="744" width="374" height="1" fill="#E2E5EA"/>
+      <!-- Filters -->
+      <g stroke="#6B7280" stroke-width="2" fill="none">
+        <circle cx="40.4" cy="771" r="5.5"/>
+        <circle cx="50.4" cy="771" r="5.5"/>
+        <circle cx="45.4" cy="763" r="5.5"/>
+      </g>
+      <text x="45.4" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Filters</text>
+      <!-- Adjust -->
+      <g stroke="#6B7280" stroke-width="2" stroke-linecap="round">
+        <line x1="111" y1="762" x2="129" y2="762"/>
+        <line x1="111" y1="768" x2="129" y2="768"/>
+        <line x1="111" y1="774" x2="129" y2="774"/>
+      </g>
+      <g fill="#6B7280">
+        <circle cx="124" cy="762" r="2.6"/>
+        <circle cx="116" cy="768" r="2.6"/>
+        <circle cx="122" cy="774" r="2.6"/>
+      </g>
+      <text x="120.2" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Adjust</text>
+      <!-- Audio (active) -->
+      <g fill="#FF6B6B">
+        <rect x="186" y="763" width="2.4" height="10" rx="1.2"/>
+        <rect x="190.8" y="760" width="2.4" height="16" rx="1.2"/>
+        <rect x="195.6" y="757" width="2.4" height="22" rx="1.2"/>
+        <rect x="200.4" y="761" width="2.4" height="14" rx="1.2"/>
+        <rect x="205.2" y="764" width="2.4" height="8" rx="1.2"/>
+      </g>
+      <text x="195" y="796" text-anchor="middle" font-size="9" font-weight="600" fill="#FF6B6B">Audio</text>
+      <!-- Trim -->
+      <rect x="258" y="761" width="24" height="14" rx="3" fill="none" stroke="#6B7280" stroke-width="1.8"/>
+      <rect x="256.5" y="759" width="3.5" height="18" rx="1.75" fill="#6B7280"/>
+      <rect x="280" y="759" width="3.5" height="18" rx="1.75" fill="#6B7280"/>
+      <text x="269.8" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Trim</text>
+      <!-- Export -->
+      <g stroke="#6B7280" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M338 765 h-2 a2 2 0 0 0 -2 2 v8 a2 2 0 0 0 2 2 h13 a2 2 0 0 0 2 -2 v-8 a2 2 0 0 0 -2 -2 h-2"/>
+        <line x1="344.6" y1="772" x2="344.6" y2="758"/>
+        <path d="M340.6 762 L344.6 758 L348.6 762"/>
+      </g>
+      <text x="344.6" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Export</text>
+
+      <!-- Home indicator -->
+      <rect x="128" y="822" width="134" height="5" rx="2.5" fill="#1B1F27"/>
+    </g>
+  </g>
+</svg>

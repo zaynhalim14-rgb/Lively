@@ -1,0 +1,159 @@
+<svg viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="screen"><rect x="8" y="8" width="374" height="828" rx="46"/></clipPath>
+    <clipPath id="th0"><rect x="25" y="544" width="60" height="60" rx="10"/></clipPath>
+    <clipPath id="th1"><rect x="95" y="544" width="60" height="60" rx="10"/></clipPath>
+    <clipPath id="th2"><rect x="165" y="544" width="60" height="60" rx="10"/></clipPath>
+    <clipPath id="th3"><rect x="235" y="544" width="60" height="60" rx="10"/></clipPath>
+    <clipPath id="th4"><rect x="305" y="544" width="60" height="60" rx="10"/></clipPath>
+  </defs>
+  <g font-family="-apple-system, Helvetica, Arial, sans-serif">
+    <!-- Device frame -->
+    <rect x="0" y="0" width="390" height="844" rx="54" fill="#1B1F27"/>
+    <g clip-path="url(#screen)">
+      <rect x="8" y="8" width="374" height="828" fill="#F7F8FA"/>
+
+      <!-- Status bar -->
+      <text x="52" y="46" font-size="15" font-weight="600" fill="#1B1F27">9:41</text>
+      <g fill="#1B1F27">
+        <rect x="292" y="42" width="3" height="4" rx="1"/>
+        <rect x="297" y="40" width="3" height="6" rx="1"/>
+        <rect x="302" y="38" width="3" height="8" rx="1"/>
+        <rect x="307" y="36" width="3" height="10" rx="1"/>
+      </g>
+      <g stroke="#1B1F27" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M316 41 a8 8 0 0 1 12 0"/>
+        <path d="M319 44 a4.4 4.4 0 0 1 6 0"/>
+      </g>
+      <circle cx="322" cy="46.5" r="1.6" fill="#1B1F27"/>
+      <rect x="336" y="36" width="22" height="11" rx="3.5" fill="none" stroke="#1B1F27" stroke-width="1.5"/>
+      <rect x="338" y="38" width="14" height="7" rx="2" fill="#1B1F27"/>
+      <rect x="359.5" y="39" width="2" height="5" rx="1" fill="#1B1F27"/>
+      <rect x="132" y="22" width="126" height="36" rx="18" fill="#14161A"/>
+
+      <!-- Top bar -->
+      <path d="M26 78 L40 92 M40 78 L26 92" stroke="#1B1F27" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="195" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#1B1F27">Edit</text>
+      <!-- Preview mode toggle -->
+      <rect x="246" y="69" width="84" height="32" rx="10" fill="#EEF0F4"/>
+      <rect x="249" y="72" width="39" height="26" rx="8" fill="#FF6B6B"/>
+      <rect x="259" y="78" width="19" height="14" rx="3" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+      <path d="M266 81.5 L272 85 L266 88.5 Z" fill="#FFFFFF"/>
+      <circle cx="309" cy="85" r="7.5" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.6 2.6"/>
+      <circle cx="309" cy="85" r="2.8" fill="#6B7280"/>
+      <!-- Play button -->
+      <path d="M350 77 L350 93 L364 85 Z" fill="#1B1F27"/>
+      <rect x="8" y="104" width="374" height="1" fill="#E2E5EA"/>
+
+      <!-- Canvas -->
+      <rect x="8" y="105" width="374" height="415" fill="#14161A"/>
+      <circle cx="140" cy="250" r="40" fill="#FFB84C"/>
+      <polygon points="30,520 210,290 382,520" fill="#3D7DFF"/>
+      <polygon points="8,520 130,360 260,520" fill="#2ECC9B"/>
+      <polygon points="230,520 315,385 382,520" fill="#2ECC9B"/>
+      <!-- LIVE badge -->
+      <rect x="24" y="120" width="66" height="22" rx="11" fill="#FFB84C"/>
+      <circle cx="38" cy="131" r="6" fill="none" stroke="#14161A" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1.4 2.2"/>
+      <circle cx="38" cy="131" r="2" fill="#14161A"/>
+      <text x="48" y="135" font-size="10" font-weight="700" letter-spacing="1" fill="#14161A">LIVE</text>
+
+      <!-- Filters panel -->
+      <!-- Thumbnail: Original -->
+      <g clip-path="url(#th0)">
+        <rect x="25" y="544" width="60" height="60" fill="#14161A"/>
+        <circle cx="47" cy="562" r="8" fill="#FFB84C"/>
+        <polygon points="39,604 63,564 91,604" fill="#3D7DFF"/>
+        <polygon points="21,604 45,574 69,604" fill="#2ECC9B"/>
+      </g>
+      <!-- Thumbnail: Vivid (selected) -->
+      <g clip-path="url(#th1)">
+        <rect x="95" y="544" width="60" height="60" fill="#0D1020"/>
+        <circle cx="117" cy="562" r="8" fill="#FFAD33"/>
+        <polygon points="109,604 133,564 161,604" fill="#2E6BFF"/>
+        <polygon points="91,604 115,574 139,604" fill="#1FD1A0"/>
+      </g>
+      <rect x="95" y="544" width="60" height="60" rx="10" fill="none" stroke="#FF6B6B" stroke-width="2"/>
+      <!-- Thumbnail: Golden -->
+      <g clip-path="url(#th2)">
+        <rect x="165" y="544" width="60" height="60" fill="#2B1E12"/>
+        <circle cx="187" cy="562" r="8" fill="#FFC978"/>
+        <polygon points="179,604 203,564 231,604" fill="#C98F4A"/>
+        <polygon points="161,604 185,574 209,604" fill="#E8B05C"/>
+      </g>
+      <!-- Thumbnail: Fade -->
+      <g clip-path="url(#th3)">
+        <rect x="235" y="544" width="60" height="60" fill="#454B57"/>
+        <circle cx="257" cy="562" r="8" fill="#E8DFC9"/>
+        <polygon points="249,604 273,564 301,604" fill="#97A0AE"/>
+        <polygon points="231,604 255,574 279,604" fill="#B4BAC6"/>
+      </g>
+      <!-- Thumbnail: Noir -->
+      <g clip-path="url(#th4)">
+        <rect x="305" y="544" width="60" height="60" fill="#0C0D10"/>
+        <circle cx="327" cy="562" r="8" fill="#E9EBEF"/>
+        <polygon points="319,604 343,564 371,604" fill="#3F444D"/>
+        <polygon points="301,604 325,574 349,604" fill="#828892"/>
+      </g>
+      <!-- Filter names -->
+      <text x="55" y="620" text-anchor="middle" font-size="9.5" font-weight="500" fill="#6B7280">Original</text>
+      <text x="125" y="620" text-anchor="middle" font-size="9.5" font-weight="600" fill="#FF6B6B">Vivid</text>
+      <text x="195" y="620" text-anchor="middle" font-size="9.5" font-weight="500" fill="#6B7280">Golden</text>
+      <text x="265" y="620" text-anchor="middle" font-size="9.5" font-weight="500" fill="#6B7280">Fade</text>
+      <text x="335" y="620" text-anchor="middle" font-size="9.5" font-weight="500" fill="#6B7280">Noir</text>
+
+      <!-- Intensity slider -->
+      <text x="25" y="658" font-size="12" font-weight="500" fill="#1B1F27">Intensity</text>
+      <text x="365" y="658" text-anchor="end" font-size="12" font-weight="500" fill="#6B7280">80%</text>
+      <rect x="25" y="674" width="340" height="6" rx="3" fill="#EEF0F4"/>
+      <rect x="25" y="674" width="272" height="6" rx="3" fill="#FF6B6B"/>
+      <circle cx="297" cy="677" r="10" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="1"/>
+
+      <!-- Tool tab bar -->
+      <rect x="8" y="744" width="374" height="92" fill="#FFFFFF"/>
+      <rect x="8" y="744" width="374" height="1" fill="#E2E5EA"/>
+      <!-- Filters (active) -->
+      <g stroke="#FF6B6B" stroke-width="2" fill="none">
+        <circle cx="40.4" cy="771" r="5.5"/>
+        <circle cx="50.4" cy="771" r="5.5"/>
+        <circle cx="45.4" cy="763" r="5.5"/>
+      </g>
+      <text x="45.4" y="796" text-anchor="middle" font-size="9" font-weight="600" fill="#FF6B6B">Filters</text>
+      <!-- Adjust -->
+      <g stroke="#6B7280" stroke-width="2" stroke-linecap="round">
+        <line x1="111" y1="762" x2="129" y2="762"/>
+        <line x1="111" y1="768" x2="129" y2="768"/>
+        <line x1="111" y1="774" x2="129" y2="774"/>
+      </g>
+      <g fill="#6B7280">
+        <circle cx="124" cy="762" r="2.6"/>
+        <circle cx="116" cy="768" r="2.6"/>
+        <circle cx="122" cy="774" r="2.6"/>
+      </g>
+      <text x="120.2" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Adjust</text>
+      <!-- Audio -->
+      <g fill="#6B7280">
+        <rect x="186" y="763" width="2.4" height="10" rx="1.2"/>
+        <rect x="190.8" y="760" width="2.4" height="16" rx="1.2"/>
+        <rect x="195.6" y="757" width="2.4" height="22" rx="1.2"/>
+        <rect x="200.4" y="761" width="2.4" height="14" rx="1.2"/>
+        <rect x="205.2" y="764" width="2.4" height="8" rx="1.2"/>
+      </g>
+      <text x="195" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Audio</text>
+      <!-- Trim -->
+      <rect x="258" y="761" width="24" height="14" rx="3" fill="none" stroke="#6B7280" stroke-width="1.8"/>
+      <rect x="256.5" y="759" width="3.5" height="18" rx="1.75" fill="#6B7280"/>
+      <rect x="280" y="759" width="3.5" height="18" rx="1.75" fill="#6B7280"/>
+      <text x="269.8" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Trim</text>
+      <!-- Export -->
+      <g stroke="#6B7280" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M338 765 h-2 a2 2 0 0 0 -2 2 v8 a2 2 0 0 0 2 2 h13 a2 2 0 0 0 2 -2 v-8 a2 2 0 0 0 -2 -2 h-2"/>
+        <line x1="344.6" y1="772" x2="344.6" y2="758"/>
+        <path d="M340.6 762 L344.6 758 L348.6 762"/>
+      </g>
+      <text x="344.6" y="796" text-anchor="middle" font-size="9" font-weight="500" fill="#6B7280">Export</text>
+
+      <!-- Home indicator -->
+      <rect x="128" y="822" width="134" height="5" rx="2.5" fill="#1B1F27"/>
+    </g>
+  </g>
+</svg>
