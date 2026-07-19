@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Nothing yet.
+### Added
+- Web demo: a browser edition of the editor now lives at
+  [weikezhang.cn/lively](https://weikezhang.cn/lively/) (source in the
+  [shoal-rat.github.io](https://github.com/shoal-rat/shoal-rat.github.io)
+  repository under `/lively/`).
 
 ## [1.0.0] - 2026-07-17
 

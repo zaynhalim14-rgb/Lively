@@ -16,6 +16,8 @@
 
 </div>
 
+> **🌐 Try it in your browser:** a live web edition of the editor — same filters, soundtrack lane, and trims on a sample clip or your own video — runs at **[weikezhang.cn/lively](https://weikezhang.cn/lively/)**. No install, nothing uploaded.
+
 Lively opens the Live Photos already in your library — or turns any video into one — and gives them a real editor: twelve filter looks with intensity blending, eight fine adjustments, a soundtrack lane with waveform trimming and voiceover recording, and a filmstrip trim. Every edit previews live, per frame, while the video plays. When you're done, Lively writes a **genuine Live Photo** back to your library — a properly paired still and video that presses-and-holds like any other — or renders a shareable MP4. Built entirely with SwiftUI and the Observation framework, zero third-party dependencies.
 
 <table>
