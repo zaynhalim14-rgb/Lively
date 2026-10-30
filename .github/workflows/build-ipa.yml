@@ -1,0 +1,45 @@
+name: Build Lively IPA
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Build iOS app
+        run: |
+          xcodebuild -project Lively.xcodeproj \
+            -scheme Lively \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/Lively.xcarchive" \
+            archive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+      - name: Package IPA
+        run: |
+          APP=$(find "$RUNNER_TEMP/Lively.xcarchive/Products/Applications" \
+            -maxdepth 1 -name "*.app" | head -1)
+
+          test -d "$APP"
+
+          mkdir -p Payload
+          cp -R "$APP" Payload/
+          zip -qry Lively.ipa Payload
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Lively-IPA
+          path: Lively.ipa
+          retention-days: 7
